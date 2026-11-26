@@ -1,0 +1,20 @@
+PANDUAN ADMINISTRASI RT 05
+
+Menjalankan aplikasi:
+1. Unduh dan ekstrak administrasi-rt05.zip.
+2. Buka index.html menggunakan Chrome atau Edge.
+3. Login admin dengan password awal 123456 (segera ganti dari Pengaturan Admin > Ubah Password Admin).
+4. Backup data secara berkala melalui tombol Backup.
+
+Menu tambahan versi ini:
+- Struktur Kepengurusan: tambah, edit, hapus nama pengurus, jabatan dan kontak.
+- Tanggap Darurat: admin dapat mengedit judul/petunjuk serta mengunggah foto/gambar (maksimal 5 MB).
+- Data Hunian: tambah/edit/hapus kategori dan jumlah unit hunian (rumah milik, kontrakan, sewa, kos, dll).
+- Data Kependudukan: rekap grafik usia, status pernikahan, pekerjaan, KTP, domisili dan status kependudukan.
+- Data warga memiliki kolom Usia, Status Pernikahan, dan Status Kependudukan untuk mengisi rekap statistik.
+
+Mode Warga:
+Pilih "Masuk sebagai Warga (Hanya Lihat)" pada halaman login. Warga dapat melihat dashboard, pengumuman, foto kegiatan, tanggap darurat, struktur pengurus, data hunian dan rekap kependudukan. Tombol edit/tambah/hapus tidak ditampilkan untuk mode warga.
+
+Privasi dan batasan:
+Aplikasi ini menyimpan data di browser perangkat lokal (localStorage). Data tidak otomatis tersinkron antarperangkat. Jangan menampilkan NIK, nomor HP pribadi, atau informasi sensitif di dashboard publik. Untuk penggunaan online multi-user diperlukan backend/database dengan autentikasi dan otorisasi server.
